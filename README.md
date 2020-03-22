@@ -1,18 +1,18 @@
 # HTTP WebServer
 
-Este projeto consiste na implemetação de um servidor HTTP usando ESP32.
-
-O servidor HTTP é implementado usando sockets com suporte da biblioteca lwip.
+Este projeto consiste na implemetação de um servidor web usando ESP32,
+implementado através do uso da API de sockets lwip.
 
 A placa ESP32 está configurada para gerar um ponto de acesso wifi,
-desta forma é necessário conectar o seu computador à rede Wi-Fi fornecida
-pela placa para utilizar o servidor.
+desta forma é necessário conectar o seu computador à rede Wi-Fi
+fornecida pela placa para utilizar o servidor.
 
-Após se conectar à rede Wi-Fi provisionada pelo ESP32, basta digitar o IP da
-placa em algum navegador de sua escolha (Chrome, Firefox) para receber a página
-HTML de onde será possível executar as ações para controlar os leds.
+Após se conectar à rede Wi-Fi provisionada pelo ESP32, basta digitar o
+IP da placa em algum navegador de sua escolha (Chrome, Firefox) e ela
+retorná uma página Web de onde é possível executar ações para controlar
+leds conectados aos pinos 26 (Led 2), 27 (Led 3) e 32 (Led 1).
 
-As ações possíveis são:
+As ações possíveis para cada led são:
     
     - Ligar, desligar ou piscar o Led 1.
     
