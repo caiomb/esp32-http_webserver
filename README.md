@@ -13,6 +13,9 @@ placa em algum navegador de sua escolha (Chrome, Firefox) para receber a página
 HTML de onde será possível executar as ações para controlar os leds.
 
 As ações possíveis são:
+    
     - Ligar, desligar ou piscar o Led 1.
+    
     - Ligar, desligar ou piscar o Led 2.
+    
     - Ligar, desligar ou piscar o Led 3.
